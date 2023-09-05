@@ -5,7 +5,7 @@ import GifGrid from "./components/GifGrid"
 
 const GifExpertApp = () => {
   /* const categorias = ['One Punch', 'Samurai X', 'Dragon Ball'] */
-  const [categorias, setCategorias] = useState(['Coding!'])
+  const [categorias, setCategorias] = useState([''])
 
   /*   const agregar = () => {
       setCategorias([['Hunter X Hunter'], ...categorias,])
@@ -17,10 +17,10 @@ const GifExpertApp = () => {
   return (
     <>
       <h2>Gif Finder App</h2>
-      <p>Introduce en el cuadro de búsqueda una o más palabras clave:</p>
+      <p>Introduce en el cuadro de búsqueda una o más palabras clave para mostrar el resultado:</p>
       {/* En "<AddCategoria setCategorias={setCategorias} />" se envía la propiedad
         * "{setCategorias} desde el padre "GifExpertApp" al hijo "AddCategoria"
-      */}
+      */}   
       <AddCategoria setCategorias={setCategorias} />
       <hr />
       <ol>
