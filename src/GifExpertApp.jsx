@@ -16,8 +16,8 @@ const GifExpertApp = () => {
 
   return (
     <>
-      <h2>Gif Finder App</h2>
-      <p>Introduce en el cuadro de búsqueda una o más palabras clave para mostrar el resultado:</p>
+      <h1>Gif Finder App</h1>
+      <h4>Introduce una o más palabras clave para mostrar una colección de 10 GIFs:</h4>
       {/* En "<AddCategoria setCategorias={setCategorias} />" se envía la propiedad
         * "{setCategorias} desde el padre "GifExpertApp" al hijo "AddCategoria"
       */}   
